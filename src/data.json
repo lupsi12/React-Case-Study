@@ -1,0 +1,627 @@
+[
+  {
+    "name": "Ahmet",
+    "mailReceivedDate": "2021-10-01",
+    "isBackgroundColorRed": false
+  },
+  {
+    "name": "Ali",
+    "mailReceivedDate": "2021-11-05",
+    "solutionSentDate": "2021-11-14",
+    "isBackgroundColorRed": true
+  },
+  {
+    "name": "Mehmet",
+    "mailReceivedDate": "2021-11-05",
+    "solutionSentDate": "2021-11-15",
+    "isBackgroundColorRed": true
+  },
+  {
+    "name": "Ayşe",
+    "mailReceivedDate": "2020-02-28",
+    "solutionSentDate": "2020-03-14"
+  },
+  {
+    "name": "Fatma",
+    "mailReceivedDate": "2020-08-14",
+    "solutionSentDate": "2020-10-09"
+  },
+  {
+    "name": "Leyla",
+    "mailReceivedDate": "2020-08-14",
+    "solutionSentDate": "2020-09-09"
+  },
+  {
+    "name": "Mehmet",
+    "mailReceivedDate": "2020-08-27",
+    "isBackgroundColorRed": false
+  },
+  {
+    "name": "Kaan",
+    "mailReceivedDate": "2020-03-01",
+    "isBackgroundColorRed": true,
+    "solutionSentDate": "2020-03-12"
+  },
+  {
+    "name": "Cem",
+    "mailReceivedDate": "2019-03-28",
+    "isBackgroundColorRed": true,
+    "solutionSentDate": "2019-03-30"
+  },
+  {
+    "name": "Nihat",
+    "mailReceivedDate": "2023-12-22",
+    "isBackgroundColorRed": false
+  },
+  {
+    "name": "Umut",
+    "mailReceivedDate": "2023-10-18",
+    "isBackgroundColorRed": false
+  },
+  {
+    "name": "Huseyin",
+    "mailReceivedDate": "2021-01-06",
+    "isBackgroundColorRed": true
+  },
+  {
+    "name": "Merve",
+    "mailReceivedDate": "2023-09-10",
+    "isBackgroundColorRed": true
+  },
+  {
+    "name": "Kaan",
+    "mailReceivedDate": "2020-04-12",
+    "isBackgroundColorRed": false
+  },
+  {
+    "name": "Murat",
+    "mailReceivedDate": "2019-08-29",
+    "isBackgroundColorRed": true
+  },
+  {
+    "name": "Emine",
+    "mailReceivedDate": "2022-05-31",
+    "isBackgroundColorRed": false,
+    "solutionSentDate": "2022-06-27"
+  },
+  {
+    "name": "Burak",
+    "mailReceivedDate": "2019-12-14",
+    "isBackgroundColorRed": false,
+    "solutionSentDate": "2019-12-22"
+  },
+  {
+    "name": "Derya",
+    "mailReceivedDate": "2023-10-11",
+    "isBackgroundColorRed": true
+  },
+  {
+    "name": "İrem",
+    "mailReceivedDate": "2021-04-25",
+    "isBackgroundColorRed": false,
+    "solutionSentDate": "2021-04-30"
+  },
+  {
+    "name": "Emine",
+    "mailReceivedDate": "2023-10-03",
+    "isBackgroundColorRed": true
+  },
+  {
+    "name": "Hale",
+    "mailReceivedDate": "2023-02-27",
+    "isBackgroundColorRed": true
+  },
+  {
+    "name": "Ece",
+    "mailReceivedDate": "2023-06-25",
+    "isBackgroundColorRed": false
+  },
+  {
+    "name": "Merve",
+    "mailReceivedDate": "2022-05-14",
+    "isBackgroundColorRed": true,
+    "solutionSentDate": "2022-06-04"
+  },
+  {
+    "name": "Ece",
+    "mailReceivedDate": "2019-10-09",
+    "isBackgroundColorRed": false
+  },
+  {
+    "name": "Gul",
+    "mailReceivedDate": "2021-04-16",
+    "isBackgroundColorRed": false,
+    "solutionSentDate": "2021-05-08"
+  },
+  {
+    "name": "Lara",
+    "mailReceivedDate": "2022-01-01",
+    "isBackgroundColorRed": true
+  },
+  {
+    "name": "Yasemin",
+    "mailReceivedDate": "2020-08-27",
+    "isBackgroundColorRed": true
+  },
+  {
+    "name": "Lara",
+    "mailReceivedDate": "2022-07-31",
+    "isBackgroundColorRed": true
+  },
+  {
+    "name": "Veli",
+    "mailReceivedDate": "2020-05-19",
+    "isBackgroundColorRed": true
+  },
+  {
+    "name": "Deniz",
+    "mailReceivedDate": "2021-06-08",
+    "isBackgroundColorRed": true
+  },
+  {
+    "name": "Gul",
+    "mailReceivedDate": "2019-06-06",
+    "isBackgroundColorRed": true,
+    "solutionSentDate": "2019-06-12"
+  },
+  {
+    "name": "Derya",
+    "mailReceivedDate": "2022-12-28",
+    "isBackgroundColorRed": true,
+    "solutionSentDate": "2023-01-19"
+  },
+  {
+    "name": "Kaan",
+    "mailReceivedDate": "2022-06-13",
+    "isBackgroundColorRed": false
+  },
+  {
+    "name": "Ali",
+    "mailReceivedDate": "2020-08-13",
+    "isBackgroundColorRed": false,
+    "solutionSentDate": "2020-09-03"
+  },
+  {
+    "name": "Veli",
+    "mailReceivedDate": "2022-03-06",
+    "isBackgroundColorRed": false
+  },
+  {
+    "name": "Leyla",
+    "mailReceivedDate": "2021-08-06",
+    "isBackgroundColorRed": false
+  },
+  {
+    "name": "Veli",
+    "mailReceivedDate": "2019-06-18",
+    "isBackgroundColorRed": false,
+    "solutionSentDate": "2019-07-06"
+  },
+  {
+    "name": "Hakan",
+    "mailReceivedDate": "2022-07-31",
+    "isBackgroundColorRed": false,
+    "solutionSentDate": "2022-08-04"
+  },
+  {
+    "name": "irem",
+    "mailReceivedDate": "2023-06-26",
+    "isBackgroundColorRed": false,
+    "solutionSentDate": "2023-07-25"
+  },
+  {
+    "name": "Selin",
+    "mailReceivedDate": "2020-11-23",
+    "isBackgroundColorRed": true,
+    "solutionSentDate": "2020-12-20"
+  },
+  {
+    "name": "Ahmet",
+    "mailReceivedDate": "2019-11-26",
+    "isBackgroundColorRed": true,
+    "solutionSentDate": "2019-12-19"
+  },
+  {
+    "name": "Lara",
+    "mailReceivedDate": "2022-10-12",
+    "isBackgroundColorRed": false,
+    "solutionSentDate": "2022-11-11"
+  },
+  {
+    "name": "Hale",
+    "mailReceivedDate": "2020-09-10",
+    "isBackgroundColorRed": false,
+    "solutionSentDate": "2020-10-10"
+  },
+  {
+    "name": "Ahmet",
+    "mailReceivedDate": "2020-08-26",
+    "isBackgroundColorRed": false,
+    "solutionSentDate": "2020-09-21"
+  },
+  {
+    "name": "Ayse",
+    "mailReceivedDate": "2022-12-13",
+    "isBackgroundColorRed": true
+  },
+  {
+    "name": "Hakan",
+    "mailReceivedDate": "2023-04-15",
+    "isBackgroundColorRed": true
+  },
+  {
+    "name": "Merve",
+    "mailReceivedDate": "2022-10-04",
+    "isBackgroundColorRed": true
+  },
+  {
+    "name": "Lara",
+    "mailReceivedDate": "2022-11-12",
+    "isBackgroundColorRed": true
+  },
+  {
+    "name": "Seda",
+    "mailReceivedDate": "2022-07-23",
+    "isBackgroundColorRed": false
+  },
+  {
+    "name": "Okan",
+    "mailReceivedDate": "2023-02-14",
+    "isBackgroundColorRed": true,
+    "solutionSentDate": "2023-03-03"
+  },
+  {
+    "name": "Veli",
+    "mailReceivedDate": "2021-04-25",
+    "isBackgroundColorRed": true,
+    "solutionSentDate": "2021-05-21"
+  },
+  {
+    "name": "Selin",
+    "mailReceivedDate": "2023-09-05",
+    "isBackgroundColorRed": false
+  },
+  {
+    "name": "Okan",
+    "mailReceivedDate": "2019-02-25",
+    "isBackgroundColorRed": true,
+    "solutionSentDate": "2019-03-25"
+  },
+  {
+    "name": "Veli",
+    "mailReceivedDate": "2022-07-02",
+    "isBackgroundColorRed": true,
+    "solutionSentDate": "2022-07-19"
+  },
+  {
+    "name": "Seda",
+    "mailReceivedDate": "2021-03-12",
+    "isBackgroundColorRed": false,
+    "solutionSentDate": "2021-04-03"
+  },
+  {
+    "name": "Tuna",
+    "mailReceivedDate": "2023-10-18",
+    "isBackgroundColorRed": false
+  },
+  {
+    "name": "Mustafa",
+    "mailReceivedDate": "2022-01-07",
+    "isBackgroundColorRed": false
+  },
+  {
+    "name": "Veli",
+    "mailReceivedDate": "2023-05-29",
+    "isBackgroundColorRed": false
+  },
+  {
+    "name": "Seda",
+    "mailReceivedDate": "2021-03-07",
+    "isBackgroundColorRed": false,
+    "solutionSentDate": "2021-04-04"
+  },
+  {
+    "name": "Hasan",
+    "mailReceivedDate": "2023-08-10",
+    "isBackgroundColorRed": true,
+    "solutionSentDate": "2023-08-18"
+  },
+  {
+    "name": "Okan",
+    "mailReceivedDate": "2019-02-11",
+    "isBackgroundColorRed": false,
+    "solutionSentDate": "2019-03-04"
+  },
+  {
+    "name": "Murat",
+    "mailReceivedDate": "2021-03-05",
+    "isBackgroundColorRed": true,
+    "solutionSentDate": "2021-03-11"
+  },
+  {
+    "name": "Pelin",
+    "mailReceivedDate": "2021-10-23",
+    "isBackgroundColorRed": true,
+    "solutionSentDate": "2021-11-02"
+  },
+  {
+    "name": "Selin",
+    "mailReceivedDate": "2023-03-07",
+    "isBackgroundColorRed": true
+  },
+  {
+    "name": "Deniz",
+    "mailReceivedDate": "2022-07-29",
+    "isBackgroundColorRed": false,
+    "solutionSentDate": "2022-08-19"
+  },
+  {
+    "name": "Lara",
+    "mailReceivedDate": "2023-06-26",
+    "isBackgroundColorRed": true
+  },
+  {
+    "name": "Cem",
+    "mailReceivedDate": "2023-12-04",
+    "isBackgroundColorRed": true,
+    "solutionSentDate": "2023-12-26"
+  },
+  {
+    "name": "Ece",
+    "mailReceivedDate": "2019-02-21",
+    "isBackgroundColorRed": true
+  },
+  {
+    "name": "Tuna",
+    "mailReceivedDate": "2020-01-15",
+    "isBackgroundColorRed": false,
+    "solutionSentDate": "2020-01-29"
+  },
+  {
+    "name": "Deniz",
+    "mailReceivedDate": "2021-05-24",
+    "isBackgroundColorRed": false
+  },
+  {
+    "name": "Nihat",
+    "mailReceivedDate": "2022-07-22",
+    "isBackgroundColorRed": true,
+    "solutionSentDate": "2022-08-01"
+  },
+  {
+    "name": "Ali",
+    "mailReceivedDate": "2021-10-08",
+    "isBackgroundColorRed": true,
+    "solutionSentDate": "2021-10-24"
+  },
+  {
+    "name": "Hüseyin",
+    "mailReceivedDate": "2023-06-18",
+    "isBackgroundColorRed": false,
+    "solutionSentDate": "2023-06-30"
+  },
+  {
+    "name": "Mehmet",
+    "mailReceivedDate": "2020-09-21",
+    "isBackgroundColorRed": true,
+    "solutionSentDate": "2020-10-14"
+  },
+  {
+    "name": "Selin",
+    "mailReceivedDate": "2020-04-30",
+    "isBackgroundColorRed": true
+  },
+  {
+    "name": "Veli",
+    "mailReceivedDate": "2020-09-12",
+    "isBackgroundColorRed": false,
+    "solutionSentDate": "2020-09-29"
+  },
+  {
+    "name": "Yasemin",
+    "mailReceivedDate": "2021-08-29",
+    "isBackgroundColorRed": true,
+    "solutionSentDate": "2021-09-01"
+  },
+  {
+    "name": "Nihat",
+    "mailReceivedDate": "2020-12-15",
+    "isBackgroundColorRed": true,
+    "solutionSentDate": "2020-12-21"
+  },
+  {
+    "name": "Yasemin",
+    "mailReceivedDate": "2021-03-05",
+    "isBackgroundColorRed": false,
+    "solutionSentDate": "2021-03-30"
+  },
+  {
+    "name": "Kaan",
+    "mailReceivedDate": "2020-02-07",
+    "isBackgroundColorRed": true
+  },
+  {
+    "name": "Fatma",
+    "mailReceivedDate": "2021-06-19",
+    "isBackgroundColorRed": false
+  },
+  {
+    "name": "Murat",
+    "mailReceivedDate": "2023-12-25",
+    "isBackgroundColorRed": true
+  },
+  {
+    "name": "Kaan",
+    "mailReceivedDate": "2021-10-25",
+    "isBackgroundColorRed": true
+  },
+  {
+    "name": "Ece",
+    "mailReceivedDate": "2023-04-13",
+    "isBackgroundColorRed": false,
+    "solutionSentDate": "2023-04-15"
+  },
+  {
+    "name": "Nihat",
+    "mailReceivedDate": "2020-05-21",
+    "isBackgroundColorRed": true
+  },
+  {
+    "name": "Lara",
+    "mailReceivedDate": "2022-07-25",
+    "isBackgroundColorRed": true,
+    "solutionSentDate": "2022-08-13"
+  },
+  {
+    "name": "Ali",
+    "mailReceivedDate": "2022-12-04",
+    "isBackgroundColorRed": false,
+    "solutionSentDate": "2022-12-17"
+  },
+  {
+    "name": "Nihat",
+    "mailReceivedDate": "2019-04-14",
+    "isBackgroundColorRed": true,
+    "solutionSentDate": "2019-04-28"
+  },
+  {
+    "name": "Okan",
+    "mailReceivedDate": "2023-04-10",
+    "isBackgroundColorRed": false
+  },
+  {
+    "name": "Selin",
+    "mailReceivedDate": "2020-09-02",
+    "isBackgroundColorRed": true,
+    "solutionSentDate": "2020-10-02"
+  },
+  {
+    "name": "Deniz",
+    "mailReceivedDate": "2022-08-09",
+    "isBackgroundColorRed": true
+  },
+  {
+    "name": "Murat",
+    "mailReceivedDate": "2019-07-01",
+    "isBackgroundColorRed": true
+  },
+  {
+    "name": "Veli",
+    "mailReceivedDate": "2021-10-12",
+    "isBackgroundColorRed": true
+  },
+  {
+    "name": "Leyla",
+    "mailReceivedDate": "2022-11-12",
+    "isBackgroundColorRed": false
+  },
+  {
+    "name": "Hüseyin",
+    "mailReceivedDate": "2022-09-11",
+    "isBackgroundColorRed": true
+  },
+  {
+    "name": "Ali",
+    "mailReceivedDate": "2022-09-03",
+    "isBackgroundColorRed": false
+  },
+  {
+    "name": "Derya",
+    "mailReceivedDate": "2020-05-10",
+    "isBackgroundColorRed": true
+  },
+  {
+    "name": "Burak",
+    "mailReceivedDate": "2023-05-06",
+    "isBackgroundColorRed": true
+  },
+  {
+    "name": "Lara",
+    "mailReceivedDate": "2021-12-15",
+    "isBackgroundColorRed": false,
+    "solutionSentDate": "2022-01-13"
+  },
+  {
+    "name": "Deniz",
+    "mailReceivedDate": "2023-02-20",
+    "isBackgroundColorRed": false
+  },
+  {
+    "name": "Hakan",
+    "mailReceivedDate": "2022-09-15",
+    "isBackgroundColorRed": true
+  },
+  {
+    "name": "Burak",
+    "mailReceivedDate": "2023-03-13",
+    "isBackgroundColorRed": true,
+    "solutionSentDate": "2023-03-23"
+  },
+  {
+    "name": "Merve",
+    "mailReceivedDate": "2020-05-26",
+    "isBackgroundColorRed": false
+  },
+  {
+    "name": "Pelin",
+    "mailReceivedDate": "2022-07-12",
+    "isBackgroundColorRed": true
+  },
+  {
+    "name": "Emine",
+    "mailReceivedDate": "2020-08-08",
+    "isBackgroundColorRed": true,
+    "solutionSentDate": "2020-08-10"
+  },
+  {
+    "name": "Fatma",
+    "mailReceivedDate": "2023-09-09",
+    "isBackgroundColorRed": true,
+    "solutionSentDate": "2023-09-17"
+  },
+  {
+    "name": "Seda",
+    "mailReceivedDate": "2022-12-03",
+    "isBackgroundColorRed": true
+  },
+  {
+    "name": "Zeynep",
+    "mailReceivedDate": "2021-06-30",
+    "isBackgroundColorRed": false,
+    "solutionSentDate": "2021-07-19"
+  },
+  {
+    "name": "Seda",
+    "mailReceivedDate": "2019-10-26",
+    "isBackgroundColorRed": false
+  },
+  {
+    "name": "Pelin",
+    "mailReceivedDate": "2022-12-17",
+    "isBackgroundColorRed": false,
+    "solutionSentDate": "2023-01-09"
+  },
+  {
+    "name": "Mustafa",
+    "mailReceivedDate": "2022-12-31",
+    "isBackgroundColorRed": true
+  },
+  {
+    "name": "HUseyin",
+    "mailReceivedDate": "2023-12-10",
+    "isBackgroundColorRed": true,
+    "solutionSentDate": "2023-12-16"
+  },
+  {
+    "name": "Derya",
+    "mailReceivedDate": "2019-05-03",
+    "isBackgroundColorRed": false,
+    "solutionSentDate": "2019-05-31"
+  },
+  {
+    "name": "Hale",
+    "mailReceivedDate": "2019-04-29",
+    "isBackgroundColorRed": true
+  }
+
+]
