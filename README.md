@@ -5,14 +5,12 @@ Bu proje, bir şirkete başvuran adayların case gönderim durumlarını değerl
 ```
 npm install
 ```
- <br>
 _Bağımlılıklar Yüklenir (node_modules)._
 
 ## Projeyi Başlatma
 ```
 npm start
 ```
-<br>
 _Uygulama, otomatik olarak http://localhost:3000 adresinde çalışacaktır._
 
 <img width="961" alt="Image" src="https://github.com/user-attachments/assets/ca6282fb-7222-4bae-95a3-6fd6faad2047" />
