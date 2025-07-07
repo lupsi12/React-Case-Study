@@ -4,10 +4,12 @@ Bu proje, bir şirkete başvuran adayların case gönderim durumlarını değerl
 ## Proje Gerekli Kurulumlar
 
 npm install
+ <br>
 _Bağımlılıklar Yüklenir (node_modules)._
 
 ## Projeyi Başlatma
 npm start
+<br>
 _Uygulama, otomatik olarak http://localhost:3000 adresinde çalışacaktır._
 
 <img width="961" alt="Image" src="https://github.com/user-attachments/assets/ca6282fb-7222-4bae-95a3-6fd6faad2047" />
@@ -16,13 +18,13 @@ _Uygulama, otomatik olarak http://localhost:3000 adresinde çalışacaktır._
 
 ### Veri Yapısı
 
-[
-  {
-    "name": "John Doe",
-    "mailReceivedDate": "2021-10-01",
-    "solutionSentDate": "2021-10-03",
-    "isBackgroundColorRed": false
-  }
+[<br>
+  {<br>
+    "name": "John Doe",<br>
+    "mailReceivedDate": "2021-10-01",<br>
+    "solutionSentDate": "2021-10-03",<br>
+    "isBackgroundColorRed": false<br>
+  }<br>
 ]
 
 name: Kişinin ismi
