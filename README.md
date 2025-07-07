@@ -2,13 +2,16 @@
 Bu proje, bir şirkete başvuran adayların case gönderim durumlarını değerlendiren interaktif bir tablo arayüzü sunar. data.json dosyasından alınan aday verileri tabloda listelenir ve kullanıcı belirli bir tarih (today) ve limit değeri vererek arkaplan renklerinin doğruluğunu html üzerinden kontrol edebilir.
 
 ## Proje Gerekli Kurulumlar
-
+```
 npm install
+```
  <br>
 _Bağımlılıklar Yüklenir (node_modules)._
 
 ## Projeyi Başlatma
+```
 npm start
+```
 <br>
 _Uygulama, otomatik olarak http://localhost:3000 adresinde çalışacaktır._
 
@@ -17,16 +20,16 @@ _Uygulama, otomatik olarak http://localhost:3000 adresinde çalışacaktır._
 ## Projeyi Hakkında 
 
 ### Veri Yapısı
-
-[<br>
-  {<br>
-    "name": "John Doe",<br>
-    "mailReceivedDate": "2021-10-01",<br>
-    "solutionSentDate": "2021-10-03",<br>
-    "isBackgroundColorRed": false<br>
-  }<br>
+```json
+[
+  {
+    "name": "John Doe",
+    "mailReceivedDate": "2021-10-01",
+    "solutionSentDate": "2021-10-03",
+    "isBackgroundColorRed": false
+  }
 ]
-
+```
 name: Kişinin ismi
 
 mailReceivedDate: Case'in adaya şirket tarafından gönderildiği tarih
