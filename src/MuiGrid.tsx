@@ -124,6 +124,7 @@ export default function MuiGrid({ source, selectedRows, setSelectedRows }: GridP
         <TableHead>
           <TableRow>
             <TableCell width={20}/>
+            <TableCell width={20}/>
             <TableCell className="table-header-cell">Name</TableCell>
             <TableCell className="table-header-cell">Mail Received Date</TableCell>
             <TableCell className="table-header-cell">Solution Sent Date</TableCell>

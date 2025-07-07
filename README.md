@@ -1,45 +1,86 @@
-# Görev
+# DGPAYS
+Bu proje, bir şirkete başvuran adayların case gönderim durumlarını değerlendiren interaktif bir tablo arayüzü sunar. data.json dosyasından alınan aday verileri tabloda listelenir ve kullanıcı belirli bir tarih (today) ve limit değeri vererek arkaplan renklerinin doğruluğunu html üzerinden kontrol edebilir.
 
-Projede data.json isimli dosyada bir dizi bulunmaktadır.Bu dizi bir şirketin yazılım departmanına başvuran adayların ve case maillerinin gönderilme bilgilerini barındırmaktadır. Property anlamları şu şekildedir;
+## Proje Gerekli Kurulumlar
 
-**name:** Kişinin ismi
+npm install
+_Bağımlılıklar Yüklenir (node_modules)._
 
-**mailReceivedDate:** Case'in adaya şirket tarafından gönderildiği tarih
+## Projeyi Başlatma
+npm start
+_Uygulama, otomatik olarak http://localhost:3000 adresinde çalışacaktır._
 
-**solutionSentDate:** Adayın case çözümünü şirkete geri gönderdiği tarih (Bu alan boş olabilmektedir)
+<img width="961" alt="Image" src="https://github.com/user-attachments/assets/ca6282fb-7222-4bae-95a3-6fd6faad2047" />
 
-**isBackgroundColorRed:** Çizilecek olan tabloda ilgili satırının arka plan renginin kırmızı olup olmadığı bilgisi
+## Projeyi Hakkında 
 
-Birinci olarak beklenen data.json daki veriler ile App.tsx sayfasında bir tablo gösterilmesidir. Bu tabloyu oluştururken grid isimli bir component yazıp, source isimli bir prop ile ilgili dataList verisini component içine aldıktan sonra componentin return edildiği yerde aşağıdaki html yapısında bir sonuç dönmesini bekliyoruz.
-(Burada background-color:'red' stili sadece isBackgroundColorRed : true olan satırlarda beklenmektedir.)
-Grid componentinin örnek kullanım şekli App.tsx sayfasında 16. satırda commentli olarak verilmiştir.
+### Veri Yapısı
 
-...grid.tsx
+[
+  {
+    "name": "John Doe",
+    "mailReceivedDate": "2021-10-01",
+    "solutionSentDate": "2021-10-03",
+    "isBackgroundColorRed": false
+  }
+]
 
-![image](https://user-images.githubusercontent.com/13540684/198149139-b1a80fe3-7db2-4984-8a09-968bb0c48599.png)
+name: Kişinin ismi
 
-Grid componenti tamamlandıktan sonra ekranda aşağıdaki şekilde bir tablo görüntülenebilmelidir.
+mailReceivedDate: Case'in adaya şirket tarafından gönderildiği tarih
 
-![image](https://user-images.githubusercontent.com/13540684/198155000-d55faa92-6cb2-4a1a-83e4-89ea8fd70904.png)
+solutionSentDate: Adayın case çözümünü şirkete geri gönderdiği tarih (Bu alan boş olabilmektedir)
 
-**function control(today:Date, limit:number) => number;**
+isBackgroundColorRed: Çizilecek olan tabloda ilgili satırının arka plan renginin kırmızı olup olmadığı bilgisi
 
-İkinci aşama olarak App.tsx sayfasında boş olarak tanımlanmış olan control isimli fonksiyonun içeriğinin doldurulması beklenmektedir. Datalist verisi kullanılmadan sayfaya yazdırılmış olan html table'dan javascript fonksiyonları kullanılarak veriler çekilecek ve bu veriler üzerinde çeşitli kontroller yapılacaktır.
+### Component Yapısı
+* App.tsx
+data.json dosyasını içeri aktarır
 
-Adayın case in çözümünü gönderdiği tarih ile case in adaya ulaştığı tarih arasındaki gün sayısının hesaplanması ve bu gün sayısı limit parametresinden büyükse ilgili satırın kırmızı arkaplan rengine sahip olması gerekmektedir. Bazı satırlar bu duruma uymamaktadır. Case çözümünün teslim edildiği tarihin boş olduğu yerlerde teslim tarihin "today" isimli parametre değeri olarak varsayılması gerekmektedir.
+Kullanıcıdan tarih (today) ve limit alır
 
-Bu kabüllere göre fonksiyon sonucu olarak; kaç satırda yanlış renkte arkaplan olduğunun sayısı dönmelidir.
+Grid bileşenini çağırır
 
-Örnek;
+Arkaplan renk kontrolünü yapan control fonksiyonunu çağırır
 
-Fonksiyona parametre olarak today = 2021-10-06, limit = 5 gönderdiğimizi varsayalım.
+Sonuçları ekranda alert olarak gösterir
 
-1. satır için teslim tarihi olmadığı için today parametresi kullanılacak ve aradaki gün farkı 5 olacak.( 5 olduğu için kırmızı olmamalı)
-2. satır için gün farkı 9 olacak ( 5 den fazla olduğu için kırmızı olmalı)
-3. satır için gün farkı 4 olacak ( 5 den az olduğu için kırmızı olmamalı)
+* MuiGrid.tsx
+Material UI kullanarak responsive tablo oluşturur
 
-Burada hatalı boyanmış satır sayısı 1 dir. control fonksiyonu 1 cevabını dönmelidir.
+isBackgroundColorRed değerine göre satır arkaplanını ayarlar
 
-![image](https://user-images.githubusercontent.com/13540684/198152689-652be67f-ecb8-4119-8ac7-44538d9f37bb.png)
+Sayfalamayı destekler
 
-Not: Tarihler ISO 8601 formatındadır.
+selectedRows özelliğiyle yanlış renklendirilmiş satırları işaretler
+
+* control.tsx
+control(today: Date, limit: number) fonksiyonu, tablo üzerinde doğrudan DOM üzerinden kontroller yaparak hangi satırların hatalı renklendirildiğini tespit eder. Çıktısı olarak hatalı satırların indekslerini verir.
+
+İşleyiş:
+
+1. Tablo satırlarını DOM'dan okur
+
+2. Her bir satır için gün farkını hesaplar:
+
+3. Eğer solutionSentDate boşsa, today kullanılır
+
+4. Gün farkı limit değerinden büyükse, satır kırmızı olmalı
+
+5. isBackgroundColorRed değeriyle uyuşmuyorsa, bu satır hatalı sayılır
+
+### tsconfig.json Dosyası
+tsconfig.json, bir TypeScript projesinde derleyici (compiler) ayarlarını tanımladığımız dosyadır. Bu dosya, TypeScript'in projenizi nasıl derleyeceğini ve yorumlayacağını belirler.
+
+resolveJsonModule JSON dosyalarını TypeScript içinde import edebilmek için aktif
+
+###
+Bu proje hem React hem de TypeScript pratiklerini pekiştirmek için ideal bir örnektir. DOM etkileşimi, veri analizi, component-based mimari ve kullanıcı girdileri gibi temel web teknolojilerini kapsamaktadır.
+
+### Projeden Görüntüler
+
+<img width="955" alt="Image" src="https://github.com/user-attachments/assets/0d2a6d12-7d13-4713-a1d8-ac857c85c880" />
+
+<img width="982" alt="Image" src="https://github.com/user-attachments/assets/81fc3a20-1ec7-4b2e-ad42-1b3e22b27fd3" />
+
+<img width="970" alt="Image" src="https://github.com/user-attachments/assets/68b08b04-d764-4cb1-b165-e577896a1c4d" />
